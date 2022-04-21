@@ -1,3 +1,1 @@
-var m ='hey'
-
-console.log(global.m)
+console.log(module)
