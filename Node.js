@@ -1,5 +1,6 @@
-function hey(ho){
-    console.log('Hi '+ho)
-}
+// function hey(ho){
+//     console.log('Hi '+ho)
+// }
 
-hey('Shibu')
+// hey('Shibu')
+console.log('Cheking 123')
