@@ -5,5 +5,5 @@ function log(message){
     // console.log(module)
 }
 
-module.exports.log = log
+module.exports = log
 

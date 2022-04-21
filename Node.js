@@ -2,6 +2,6 @@
 
 var a = require('./NewFile')
 
-a.log('message')
+a('message')
 
 // console.log(a)
