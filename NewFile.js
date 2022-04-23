@@ -1,7 +1,4 @@
-
-
 var x = ;
-
 var link = 'https://myinfo.io/'
 
 function log(message){
