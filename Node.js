@@ -8,8 +8,6 @@ const emmiter = require('events')  //class
 
 const emObj = new emmiter()  //object
 
-emObj.on('messageLogged',()=>{
-    console.log('I am in')
+emObj.on('messageLogged',(args) => {
+    console.log('I am in', args)
 })
-
-emObj.emit('messageLogged')
