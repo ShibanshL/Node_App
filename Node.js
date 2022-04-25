@@ -11,3 +11,6 @@ const emObj = new emmiter()  //object
 emObj.on('messageLogged',(args) => {
     console.log('I am in', args)
 })
+
+const log = require('./NewFile')
+log('message')
