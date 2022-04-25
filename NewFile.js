@@ -1,5 +1,5 @@
 const emmiter = require('events')  //class
-const emObj = new emmiter()  //object
+// const emObj = new emmiter()  //object
 
 var link = 'https://myinfo.io/'
 
@@ -10,7 +10,7 @@ class Logger extends emmiter{
         console.log(message)
         // console.log(module)
     
-        emObj.emit('messageLogged',{id:1, url:'http://'})
+        this.emit('messageLogged',{id:1, url:'http://'})
     
     }
 }
