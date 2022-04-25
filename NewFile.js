@@ -5,7 +5,7 @@ var link = 'https://myinfo.io/'
 
 // console.log(__filename)
 // console.log(__dirname)
-class Logger{
+class Logger extends emmiter{
     log(message){
         console.log(message)
         // console.log(module)
