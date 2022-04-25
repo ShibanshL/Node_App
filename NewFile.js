@@ -20,4 +20,4 @@ class Logger{
 
 
 
-module.exports = log
+module.exports = Logger
