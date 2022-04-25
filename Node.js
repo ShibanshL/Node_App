@@ -10,7 +10,7 @@ var osObj = os.freemem()
 var osObj1 = os.totalmem()
 var osObj2 = os.platform()
 var osObj3 = os.uptime()
-var file = fs.readFileSync('./')
+var file = fs.readdirSync('./')
 
 // console.log('Obj = ',osObj)
 // console.log('Obj1 = ',osObj1)
