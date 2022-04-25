@@ -1,3 +1,6 @@
+const emmiter = require('events')  //class
+const emObj = new emmiter()  //object
+
 var link = 'https://myinfo.io/'
 
 console.log(__filename)
