@@ -8,9 +8,13 @@ const emmiter = require('events')  //class
 
 const emObj = new emmiter()  //object
 
-emObj.on('messageLogged',(args) => {
+
+
+const Logger = require('./NewFile')
+const logger = new Logger()
+
+logger.on('messageLogged',(args) => {
     console.log('I am in', args)
 })
 
-const log = require('./NewFile')
-log('message')
+logger.log('message')
