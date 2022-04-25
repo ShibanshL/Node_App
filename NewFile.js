@@ -16,4 +16,4 @@ function log(message){
 
 
 
-
+module.exports = log
