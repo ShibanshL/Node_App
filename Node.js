@@ -6,8 +6,8 @@ const os = require('os')
 
 var osObj = os.freemem()
 var osObj1 = os.totalmem()
-var osObj2 = os.platform
-var osObj3 = os.uptime
+var osObj2 = os.platform()
+var osObj3 = os.uptime()
 
 console.log('Obj = ',osObj)
 console.log('Obj1 = ',osObj1)
