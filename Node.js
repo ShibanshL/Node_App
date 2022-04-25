@@ -1,22 +1,15 @@
-// const path = require('path')
+const path = require('path')
 
 const os = require('os')
 
 const fs = require('fs')
 
-// var pathObj = path.parse(__filename)
+const emmiter = require('events')  //class
 
-var osObj = os.freemem()
-var osObj1 = os.totalmem()
-var osObj2 = os.platform()
-var osObj3 = os.uptime()
-var file = fs.readdirSync('./')
+const emObj = new emmiter()  //object
 
-// console.log('Obj = ',osObj)
-// console.log('Obj1 = ',osObj1)
-// console.log('Obj2 = ',osObj2)
-// console.log('Obj3 = ',osObj3)
-console.log(file)
-// console.log('Obj = ',osObj)
+emObj.on('messageLogged',()=>{
+    console.log('I am in')
+})
 
-// console.log(pathObj)
+emObj.emit('messageLogged')
